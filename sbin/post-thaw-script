@@ -1,0 +1,5 @@
+#!/bin/bash
+
+fsfreeze -u /
+
+echo `date`: FS Unfreezed >> /var/log/container.log
